@@ -10,5 +10,5 @@ export class AppComponent {
   title = 'repo-publish-github';
   str = `1. npm install -g angular-cli-ghpages
   2. ng build --prod --base-href "https://{username}.github.io/{project name}/
-  3. ngh --dir .dist\{local project name}`;
+  3. ngh --dir dist/{local project name}`;
 }
